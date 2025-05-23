@@ -1,22 +1,16 @@
 # Camera Calibration using OpenCV
-
 This project demonstrates how to perform **camera calibration** using a set of chessboard images and OpenCV. The goal is to compute the intrinsic camera parameters and distortion coefficients required to correct lens distortion in captured images.
 
 ## 🧠 Key Concepts
-
 - **Camera Matrix (Intrinsic Parameters)** – Describes the internal characteristics of the camera (focal length, optical center).
 - **Distortion Coefficients** – Parameters that account for lens distortion (radial and tangential).
 - **Reprojection Error** – Quantifies the difference between observed image points and projected object points.
 - **Chessboard Corners Detection** – Used for calibration by matching 3D world coordinates with 2D image coordinates.
 
-## 📂 Project Structure
-
 ## 📸 Input Data
-
 Place your chessboard images inside a folder named `calibration_images`. Each image should contain a clear, visible chessboard taken from different angles.
 
 ## ⚙️ Requirements
-
 Install the required packages with pip:
 
 ```bash
